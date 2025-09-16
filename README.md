@@ -18,3 +18,4 @@ sudo chown debian:debian /srv/samba/partage  // changement du propriétaire du d
 ```
 sudo nano /etc/samba/smb.conf
 ```
+![Uploading {1E7B3C3A-58F8-4CDB-9E4E-4FE3DD1B9AB9}.png…]()
