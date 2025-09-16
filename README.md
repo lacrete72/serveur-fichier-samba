@@ -28,3 +28,16 @@ sudo nano /etc/samba/smb.conf
   valid users = @sambausers
 ```
 
+### gestion des utilisateurs
+```
+sudo smbpasswd -a debian 
+sudo groupadd sambausers
+sudo adduser debian sambausers
+```
+
+### ajout du dossier partage dans windows
+ouvrir un cmd et taper la commande
+```
+NET USE P: \\192.168.72.1\partage
+```
+
